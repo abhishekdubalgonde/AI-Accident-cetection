@@ -1,0 +1,15 @@
+path: ./data/  # Current directory
+train: train/images
+val: valid/images
+test: test/images
+
+
+nc: 9
+names: ['Animal', 'Auto', 'Bus', 'Car', 'Carts', 'Person', 'Rikshaw', 'Truck', 'Two-wheeler']
+
+roboflow:
+  workspace: object-detection-dp5wa
+  project: yolo-v8-indian-roads-dataset
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-detection-dp5wa/yolo-v8-indian-roads-dataset/dataset/6
